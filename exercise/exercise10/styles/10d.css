@@ -1,0 +1,66 @@
+.frame {
+  margin-top: 24px;
+  margin-left: 12px;
+  width: 180px;
+  box-shadow: 0 2px 8px rgb(161, 161, 161);
+  display: inline-block;
+}
+
+.thumbnail {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 6px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mutual-col,
+.profile-col {
+  margin-top: 6px;
+  margin-bottom: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile-col {
+  margin-left: 8px;
+}
+
+.profile-pic {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border: none;
+  border-radius: 20px;
+}
+
+.name {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.mutual {
+  font-size: 14px;
+  color: grey;
+  margin-left: 2px;
+}
+
+.add-button {
+  background-color: #4267b2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}

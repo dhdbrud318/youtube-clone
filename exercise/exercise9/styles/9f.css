@@ -1,0 +1,46 @@
+div {
+  margin-top: 24px;
+  margin-left: 12px;
+  width: 160px;
+  box-shadow: 0 2px 8px rgb(161, 161, 161);
+  display: inline-block;
+}
+
+.thumbnail {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 6px;
+}
+
+p {
+  font-family: Arial;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.mutual {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 16px;
+}
+
+.add-button {
+  background-color: #4267b2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}

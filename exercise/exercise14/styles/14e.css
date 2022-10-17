@@ -1,0 +1,76 @@
+div {
+  font-family: Arial;
+}
+
+button {
+  font-family: Arial;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.friend-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.profile-row {
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: none;
+}
+
+.name-row {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  flex: 1;
+  width: 0;
+}
+
+.button-row {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.add-friend-button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(66 103 178);
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.add-friend-button:hover {
+  background-color: rgb(55, 87, 152);
+}
+
+.add-friend-button:active {
+  opacity: 0.8;
+}
+
+.message-button {
+  font-weight: bold;
+  background-color: rgb(222, 222, 222);
+}

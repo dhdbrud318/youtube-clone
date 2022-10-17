@@ -1,0 +1,47 @@
+.navigation {
+  font-family: Arial;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7851a9;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p {
+  width: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input {
+  flex: 1;
+  max-width: 500px;
+  height: 32px;
+  border: none;
+
+  border-radius: 16px;
+  padding-left: 16px;
+  margin-right: 32px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  color: white;
+  background-color: #7851a9;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}

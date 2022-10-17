@@ -1,0 +1,8 @@
+.name-entry,
+.email-entry {
+  display: block;
+  margin-bottom: 8px;
+  width: 180px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}

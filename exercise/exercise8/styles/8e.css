@@ -1,0 +1,44 @@
+p {
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+input {
+  display: block;
+  width: 290px;
+  margin-top: 0;
+  margin-bottom: 6px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: none;
+  background-color: rgb(234, 234, 234);
+}
+
+.request-button {
+  margin-top: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+}
+
+.schedule-button {
+  margin-top: 16px;
+  background-color: rgb(234, 234, 234);
+  color: black;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  margin-left: 12px;
+}
